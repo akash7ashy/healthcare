@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Doctors - Revo Hospital</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1, h2 {
+      margin: 0;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      color: #007BFF;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    ul.department-list {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    ul.department-list li {
+      background-color: #e6f0ff;
+      padding: 10px 15px;
+      border-radius: 6px;
+    }
+
+    .doctor-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .doctor-card img {
+      width: 180px;
+      border-radius: 10px;
+    }
+
+    .doctor-info h2 {
+      margin: 0 0 5px;
+      color: #007BFF;
+    }
+
+    .doctor-info p {
+      margin: 5px 0;
+    }
+
+    .specialization {
+      font-style: italic;
+      color: #555;
+    }
+
+    footer {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meet Our Expert Doctors</h1>
+    <p>Revo Hospital - Trusted Healthcare for You & Your Family</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Hospital Departments -->
+    <section>
+      <h2 class="section-title">Hospital Departments</h2>
+      <ul class="department-list">
+        <li>Cardiology</li>
+        <li>Pediatrics</li>
+        <li>General Surgery</li>
+        <li>Neurology</li>
+        <li>Orthopedics</li>
+        <li>Emergency Medicine</li>
+        <li>Internal Medicine</li>
+        <li>Radiology</li>
+        <li>Dermatology</li>
+        <li>ENT</li>
+      </ul>
+    </section>
+
+    <!-- Doctors List -->
+
+    <!-- Doctor 1 -->
+    <div class="doctor-card">
+      <img src="images/doc-1.png" alt="Dr. James Carter">
+      <div class="doctor-info">
+        <h2>Dr. James Carter</h2>
+        <p><strong>Position:</strong> Chief Medical Officer</p>
+        <p class="specialization">Specialization: Internal Medicine & Healthcare Leadership</p>
+        <p>With over 15 years of experience, Dr. Carter oversees hospital operations while providing care in internal medicine and patient diagnostics.</p>
+      </div>
+    </div>
+
+    <!-- Doctor 2 -->
+    <div class="doctor-card">
+      <img src="images/doc-2.png" alt="Dr. Emily Watson">
+      <div class="doctor-info">
+        <h2>Dr. Emily Watson</h2>
+        <p><strong>Position:</strong> Senior Cardiologist</p>
+        <p class="specialization">Specialization: Cardiology & Vascular Surgery</p>
+        <p>Dr. Watson leads the Cardiology department, performing procedures like angioplasty and ECG monitoring, with a focus on heart health and patient wellness.</p>
+      </div>
+    </div>
+
+    <!-- Doctor 3 -->
+    <div class="doctor-card">
+      <img src="images/doc-3.png" alt="Dr. Sarah Johnson">
+      <div class="doctor-info">
+        <h2>Dr. Sarah Johnson</h2>
+        <p><strong>Position:</strong> Pediatrician</p>
+        <p class="specialization">Specialization: Child Health & Immunization</p>
+        <p>Dr. Johnson provides comprehensive care to infants and children, including growth assessments, vaccinations, and nutritional counseling.</p>
+      </div>
+    </div>
+
+    <!-- Doctor 4 -->
+    <div class="doctor-card">
+      <img src="images/doc-4.png" alt="Dr. Priya Menon">
+      <div class="doctor-info">
+        <h2>Dr. Priya Menon</h2>
+        <p><strong>Position:</strong> General Surgeon</p>
+        <p class="specialization">Specialization: Laparoscopic Surgery & Emergency Trauma</p>
+        <p>Dr. Menon is skilled in complex surgical procedures, from gallbladder removals to emergency trauma care, ensuring safe recovery and post-op care.</p>
+      </div>
+    </div>
+
+    <!-- Doctor Group -->
+    <div class="doctor-card">
+      <img src="images/doc-group-2.png" alt="Our Medical Team">
+      <div class="doctor-info">
+        <h2>Our Medical Team</h2>
+        <p><strong>Departments:</strong> Neurology, Orthopedics, Emergency Care, ENT, and more</p>
+        <p class="specialization">Specialists in advanced diagnosis, surgeries, and critical care</p>
+        <p>Our multidisciplinary team includes neurosurgeons, orthopedic experts, ENT consultants, and emergency physicians who work collaboratively to deliver high-quality care across all departments.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Revo Hospital. All rights reserved.
+  </footer>
+
+</body>
+</html>

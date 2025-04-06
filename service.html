@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Revo - Our Services</title>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #0055a5;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover,
+    .nav-links .active {
+      text-decoration: underline;
+    }
+
+    header {
+      background: #e0f0ff;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #003f7d;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+
+    .services-section {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .service-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .service-card h3 {
+      color: #0055a5;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #0055a5;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Revo</div>
+    <ul class="nav-links">
+     
+      <li><a href="services.html" class="active">Services</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Our Hospital Services</h1>
+    <p>At Revo Hospital, we are committed to providing high-quality, patient-centered care.</p>
+  </header>
+
+  <!-- Services -->
+  <section class="services-section">
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Outpatient Consultation</h3>
+        <p>Expert consultation with specialized doctors across various medical fields.</p>
+      </div>
+      <div class="service-card">
+        <h3>24/7 Emergency Care</h3>
+        <p>Our emergency department is open around the clock, equipped to handle critical cases promptly.</p>
+      </div>
+      <div class="service-card">
+        <h3>Surgical Services</h3>
+        <p>We offer general and specialized surgeries with advanced equipment and skilled surgeons.</p>
+      </div>
+      <div class="service-card">
+        <h3>Laboratory & Diagnostics</h3>
+        <p>Comprehensive diagnostic services including blood tests, imaging, and pathology.</p>
+      </div>
+      <div class="service-card">
+        <h3>Maternity & Pediatrics</h3>
+        <p>Dedicated maternal and child care services for expecting mothers and newborns.</p>
+      </div>
+      <div class="service-card">
+        <h3>Pharmacy</h3>
+        <p>In-house pharmacy stocked with essential and emergency medications.</p>
+      </div>
+      <div class="service-card">
+        <h3>Physiotherapy & Rehabilitation</h3>
+        <p>Supportive care for patients recovering from injuries, surgeries, or chronic conditions.</p>
+      </div>
+      <div class="service-card">
+        <h3>ICU & Inpatient Care</h3>
+        <p>Well-equipped intensive care and inpatient facilities with round-the-clock monitoring.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Revo Hospital. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
